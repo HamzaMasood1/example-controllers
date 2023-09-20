@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	mygroupv1alpha1 "github.com/HamzaMasood1/example-controllers/basic-controller/github.com/myid/myresource-crd/pkg/clientset/clientset/typed/mygroup.example.com/v1alpha1"
+	mygroupv1alpha1 "github.com/myid/myresource-crd/pkg/clientset/clientset/typed/mygroup.example.com/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

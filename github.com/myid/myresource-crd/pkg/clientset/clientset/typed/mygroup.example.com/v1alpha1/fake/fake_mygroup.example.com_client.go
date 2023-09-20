@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1alpha1 "github.com/HamzaMasood1/example-controllers/basic-controller/github.com/myid/myresource-crd/pkg/clientset/clientset/typed/mygroup.example.com/v1alpha1"
+	v1alpha1 "github.com/myid/myresource-crd/pkg/clientset/clientset/typed/mygroup.example.com/v1alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )
